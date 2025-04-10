@@ -139,11 +139,12 @@ button.delete{
         height: 30px;
         width: 30px;
         font-size: 0.8rem;
+        color: black;
     }
 
     button.enter,
     button.delete {
-        width: 45px;
+        width: 49px;
         font-size: 0.7rem;
     }
 }
