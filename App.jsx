@@ -5,8 +5,8 @@ import Confetti from "react-confetti"
 import { words } from './words';
 
 export default function App() {
-    //const [correctWord, setCorrectWord] = useState(words[Math.floor(Math.random() * words.length)]);
-    const [correctWord, setCorrectWord] = useState("apple");
+    const [correctWord, setCorrectWord] = useState(words[Math.floor(Math.random() * words.length)]);
+    //const [correctWord, setCorrectWord] = useState("apple");
 
     const [word, setWord] = useState(Array(6).fill(""));
     const [guessedword, setGuessedWord] = useState([]);
